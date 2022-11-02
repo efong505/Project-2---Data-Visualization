@@ -17,13 +17,19 @@ Make sure that you have Git installed on your computer. Once you have it install
 1. Once Python is insalled, in powershell, type:
 
 ```powershell
-git clone https://github.com/efong505/AlienShootingGame.git
+git clone https://github.com/efong505/Project-2---Data-Visualization.git
 ```
 Once you have the repository downloaded to your folder change your directory into the Alien
 
 ```powershell
-cd AlienShootingGame
+cd Project-2---Data-Visualization
 ```
+
+Create a virutal environment by typing:
+```powershell
+py -m venv env
+```
+
 Start the virtual environment by typing:
 
 ```powershell
@@ -33,10 +39,8 @@ then run the pip install from the requirements.txt file...
 ```powershell
 py -m pip install -r requirements.txt
 ```
-Then run the game by typing:
+Go through the different programs:
 ```powershell
-alien_invasion.py
+Example: type die_visual.py
 ```
-You can either start the game by pressing the start button or type `s`
 
-To quit you just type `q`
